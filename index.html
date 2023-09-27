@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="./style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img id="logo" src="./img/techno.jfif" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <i class="ri-search-line"></i>                
+                </div>
+            </div>
+            <div class="navBottom1" >
+                <h3 class="menuItem1"  >HOME</h3>
+                <h3 class="menuItem1" onclick="location.href='shop.html'">SHOP</h3>
+                <h3 class="menuItem1" onclick="location.href='blog.html'">BLOG</h3>
+                <h3 class="menuItem1" onclick="location.href='about.html'">ABOUT</h3>
+                <h3 class="menuItem1" onclick="location.href='contact.html'">CONTACT</h3>
+                <a href="cart.html"><i class="ri-shopping-cart-line"></i></a>
+                <i id="closed" class="ri-close-line"></i>
+                
+            </div>
+            <div class="mobile">
+                <a href="cart.html"><i class="ri-shopping-cart-line"></i></a>
+                <i id="bar" class="ri-menu-line"></i>
+            </div>
+        </div>
+        
+    </nav>
+    <!-- offer -->
+    <div class="navOffer">
+            <h3>!!TOP&nbsp OFFERS&nbsp ON&nbsp THIS&nbsp PRODUCTS &nbsp </h3><span class="navDesign">ONLY</span>
+            <span><i class="ri-arrow-down-line"></i></span>
+    </div>
+    </div>
+    <div class="navBottom">
+        <h3 class="menuItem">NIKE(A7X57)</h3>
+        <h3 class="menuItem">NEON(ULTRA)</h3>
+        <h3 class="menuItem">MSD(SIGNATURE)</h3>
+        <h3 class="menuItem">ADIDAS(.90)</h3>
+    </div>
+
+
+    <!-- slider -->
+     <div class="slider"> 
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="img/air.png" alt="image" class="sliderImage">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">A7x95 <br>FASTBOOK NIKE <br>SHOES</h1>
+                <h2 class="sliderPrice">RS 999/-</h2>
+                <a href="#product">
+                    <button class="sliderButton">BUY NOW</button>
+                </a>
+                    
+            </div>
+            <div class="sliderItem">
+                <img src="img/blazer.png" alt="image" class="sliderImage">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">X9 <br> NITROGEN JORDON <br>SHOES</h1>
+                <h2 class="sliderPrice">RS 1999/-</h2>
+                <a href="#product">
+                    <button class="sliderButton">BUY NOW</button>
+                </a>
+                    
+            </div>
+
+            <div class="sliderItem">
+                <img src="img/jordan.png" alt="image" class="sliderImage">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">A7 <br>FASTBOOK BATA <br>SHOES</h1>
+                <h2 class="sliderPrice">RS 2999/-</h2>
+                <a href="#product">
+                    <button class="sliderButton">BUY NOW</button>
+                </a>
+                    
+            </div>
+            <div class="sliderItem">
+                <img src="img/hippie.png" alt="image" class="sliderImage">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">ZX <br>FASTBOOK FASHION <br>SHOES</h1>
+                <h2 class="sliderPrice">RS 3999/-</h2>
+                <a href="#product">
+                    <button class="sliderButton">BUY NOW</button>
+                </a>
+                    
+            </div>
+        
+
+        </div>
+    </div>
+    <!-- FOR CONTACT AND OTHER INFORMATION -->
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureImg">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDes">We are excited to announce that our any Products will shipped at a door with Free.</span>
+        </div>
+        <div class="feature">
+            <img src="./img/return.png" alt="" class="featureImg">
+            <span class="featureTitle">7 DAYS RETURN</span>
+            <span class="featureDes">We have 7 days return policy.</span>
+        </div>
+        <div class="feature">
+            <img src="./img/gift.png" alt="" class="featureImg">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDes">Buy gift card and use them as a coupen code.</span>
+        </div>
+        <div class="feature">
+
+            <img src="./img/contact.png" alt="" class="featureImg">
+            <span class="featureTitle">CONTACT US</span>
+            <span class="featureDes">Contact us via email and keep touch with us for excluive Offers!!</span>
+        </div>
+        
+    </div>
+    <!-- poster-image -->
+    <div class="postertop">
+            <img src="https://media.istockphoto.com/id/1162609438/vector/big-sale-banner-design-set.jpg?s=612x612&w=0&k=20&c=DAjQJ8bfNFj9-QMahIH63eJmEuNLw3Hu8IPjESLeJ_Q=" alt="" >
+    </div>
+
+    <!-- add 8-10 shoes -->
+
+    <div class="featureshoes" id="featureshoes">
+        <h2>Feature Products</h2>
+        <p>Summer Collection New Modern design </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="./img/shoe1.webp"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Nike</span>
+                    <h5 class="desName">Downshifter 12 Running Shoes</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 1249/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe2.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Adidas</span>
+                    <h5 class="desName">Jordan Max Aura 5 Sneakers</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 799/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe3.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Nike</span>
+                    <h5 class="desName">Men Lace-Up Running Shoes</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 1125/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe4.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Nike</span>
+                    <h5 class="desName"> Lace-Up Running Shoes</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 1200/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe5.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Duke</span>
+                    <h5 class="desName">Jordan Max Aura 7 Sneakers</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 499/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe6.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Puma</span>
+                    <h5 class="desName">Knitted  Lace-Up Fastening</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 999/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe7.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Nike</span>
+                    <h5 class="desName">Jordan Max Aura 5 </h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 759/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe8.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Duke</span>
+                    <h5 class="desName">Knitted Running Shoes</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 7900/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe9.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Puma</span>
+                    <h5 class="desName"> Shoes with Lace-Up Fastening</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 5909/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe10.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Nike</span>
+                    <h5 class="desName">Men Lace-Up Running Shoes</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 529/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe11.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Nike</span>
+                    <h5 class="desName"> Shoes with Lace-Up Fastening</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 2799/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./img/shoe12.avif"  alt="" class="proImg">
+                <div class="des">
+                    <span class="desCom">Puma</span>
+                    <h5 class="desName">Men Lace-Up Running Shoes</h5>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="desPrice">Rs 1799/-</h4>
+                </div>
+                <a href="#" class="desCart"><i class="ri-shopping-cart-line"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  product details  -->
+
+    <div class="product" id="product">
+        <img src="./img/air.png" alt="" class="productimg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">RS 999/-</h2>
+            <p class="productDes">Lorem ipsums veniam deleniti quaerat obcaecati fuga harum eaque veritatis nihil modi odit quia nulla. Facere, nemo commodi.</p>
+        <div class="colors">
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <div class="sizes">
+            <div class="size">7</div>
+            <div class="size">8</div>
+            <div class="size">9</div>
+        </div>
+        <button class="productButton">BUY NOW</button>
+        </div>
+        <!--  payment details -->
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label >Full Name</label>
+            <input type="text" placeholder="John Wick" class="payInput">    
+            <label >Phone Number</label>
+            <input type="text" placeholder="+91 12345" class="payInput">
+            <label >Address</label>
+            <input type="text" placeholder="Nashik" class="payInput">
+            
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcon">
+                <img src="./img/visa.png" alt="" width="50" class="cardImg">
+                <img src="./img/master.png" alt=""  width="50" class="cardImg">
+            </div>
+            <input type="password" placeholder="Card Number" class="payInput">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="password" placeholder="cvv" class="payInput sm">
+            </div>
+            <span class="close">X</span>
+            <button class="payButton">CheckOut</button>
+        </div>
+    </div>
+    <h1 class="design">Pictures Of The DAY</h1>
+    <div class="gallery">
+        <div class="galleryItem">
+            <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://plus.unsplash.com/premium_photo-1665664652418-91f260a84842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://media.istockphoto.com/id/1324624694/photo/fitness-woman-running-training-for-marathon-on-sunny-coast-trail.jpg?s=612x612&w=0&k=20&c=09StrnZiVdHvfR1G9CeBqcMYxSvFSGFQVuNbOzhBQ-c=" alt="" class="galleryImg">
+        </div>
+    </div>
+
+    <div class="newSeason">
+        <div class="newMenu">
+            <img src="https://media.istockphoto.com/id/1186575663/photo/businessman-tie-shoelaces.jpg?s=612x612&w=0&k=20&c=L4C2wp64k2PDQFXwQ97RQzGkWd5zAwhVW-eFs1VrMck=" alt="" class="menuImg">
+        </div>
+        <div class="newmenu m">
+            <h1 class="newmenuTitle">NEW SEASON</h1>
+            <h2 class="newmenuTitle">!!New Collections!!</h2>
+            <h3 class="newmenuTitle">Choose Your Product Now!</h3>
+            <a href="#featureshoes">
+            <button class="menuB">CHOOSE</button>
+            </a>
+        </div>
+        <div class="newMenu">
+            <img src="https://media.istockphoto.com/id/1388719421/photo/brown-leather-diary-with-a-pair-of-elegant-shoes.jpg?s=612x612&w=0&k=20&c=2lscJo0PSmK9NHojl0SFEfl1W_UNpatUgSaBhA0lJ6Y=" alt="" class="menuImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footermenu">
+                <h1 class="ftitle">About US</h1>
+                <ul class="fMenuList">
+                    <li class="fListIem">Company</li>
+                    <li class="fListIem">Contact</li>
+                    <li class="fListIem">Careers</li>
+                    <li class="fListIem">FAQ</li>
+                    <li class="fListIem">Stores</li>
+                </ul>
+            </div>
+            <div class="footermenu">
+                <h1 class="ftitle">Useful Links</h1>
+                <ul class="fMenuList">
+                    <li class="fListIem">Support</li>
+                    <li class="fListIem">Refund</li>
+                    <li class="fListIem">FAQ</li>
+                    <li class="fListIem">Feedback</li>
+                    <li class="fListIem">Stories</li>
+                </ul>
+            </div>
+            <div class="footermenu">
+                <h1 class="ftitle">Products</h1>
+                <ul class="fMenuList">
+                    <li class="fListIem">Support</li>
+                    <li class="fListIem">Refund</li>
+                    <li class="fListIem">FAQ</li>
+                    <li class="fListIem">Feedback</li>
+                    <li class="fListIem">Stories</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fmail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join</button>
+                </div>
+                
+            </div>  
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">   
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Technokeens. All rights reserved. 2023.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script>
+        var InformationPage = document.querySelectorAll(".pro");
+        InformationPage.forEach(function(page){
+            page.addEventListener("click",function(){
+                // location.href='sproduct.html';
+                onclick="location.href='sproduct.html'"
+            })
+        });
+            // for open and close the payment options
+            let productButton = document.querySelector(".productButton");
+            let close = document.querySelector(".close")
+            let cardinfo = document.querySelector(".payment")
+
+            productButton.addEventListener("click",(a)=>{
+                cardinfo.style.display="flex"
+            })
+            close.addEventListener("click",()=>{
+                cardinfo.style.display="none"
+            })
+
+        
+    </script>
+</body>
+</html>

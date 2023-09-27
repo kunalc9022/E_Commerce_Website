@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="./style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img id="logo" src="./img/techno.jfif" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <i class="ri-search-line"></i>                
+                </div>
+            </div>
+            <div class="navBottom1" >
+                <h3 class="menuItem1" onclick="location.href='index.html'">HOME</h3>
+                <h3 class="menuItem1" onclick="location.href='shop.html'">SHOP</h3>
+                <h3 class="menuItem1" onclick="location.href='blog.html'">BLOG</h3>
+                <h3 class="menuItem1" onclick="location.href='about.html'">ABOUT</h3>
+                <h3 class="menuItem1" onclick="location.href='contact.html'">CONTACT</h3>
+                <a href=""><i class="ri-shopping-cart-line"></i></a>
+                <i id="closed" class="ri-close-line"></i>
+            </div>
+            <div class="mobile">
+                <a href=""><i class="ri-shopping-cart-line"></i></a>
+                <i id="bar" class="ri-menu-line"></i>
+            </div>
+        </div>
+    
+    </nav>
+<!-- poster-image -->
+    <div class="postertop-SCart">
+            <h2>#Your Cart</h2>
+            <p>Continue your shopping and get more suprises form us.</p>
+    </div>
+
+    <div class="table">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>remove</td>
+                    <td>image</td>
+                    <td>product</td>
+                    <td>price</td>
+                    <td>quantity</td>
+                    <td>subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="ri-close-circle-line"></i></a></td>
+                    <td><img src="./img/shoe11.avif" alt=""></td>
+                    <td>Artemis Lace-Up Running Shoes</td>
+                    <td>RS 999/-</td>
+                    <td><input type="number" value="1"></td>
+                    <td>RS 999/-</td>
+
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="ri-close-circle-line"></i></a></td>
+                    <td><img src="./img/shoe8.avif" alt=""></td>
+                    <td>Artemis Lace-Up Running Shoes</td>
+                    <td>RS 2999/-</td>
+                    <td><input type="number" value="1"></td>
+                    <td>RS 2999/-</td>
+
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="ri-close-circle-line"></i></a></td>
+                    <td><img src="./img/shoe7.avif" alt=""></td>
+                    <td>Artemis Lace-Up Running Shoes</td>
+                    <td>RS 1999/-</td>
+                    <td><input type="number" value="1"></td>
+                    <td>RS 1999/-</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="cartTotal">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Coupon Code">
+                <button>APPLY</button>
+            </div>
+        </div>
+        <div class="cartT">
+            <h3>Cart Total</h3>
+            <div>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>RS 5997/-</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>RS 5997/-</strong></td>
+                    </tr>
+                </table>
+                <button>PROCEED</button>
+            </div>
+        </div>
+    </div>
+   
+   <!-- foooter -->
+    <footer>
+        <div class="footerLeft">
+            <div class="footermenu">
+                <h1 class="ftitle">About US</h1>
+                <ul class="fMenuList">
+                    <li class="fListIem">Company</li>
+                    <li class="fListIem">Contact</li>
+                    <li class="fListIem">Careers</li>
+                    <li class="fListIem">FAQ</li>
+                    <li class="fListIem">Stores</li>
+                </ul>
+            </div>
+            <div class="footermenu">
+                <h1 class="ftitle">Useful Links</h1>
+                <ul class="fMenuList">
+                    <li class="fListIem">Support</li>
+                    <li class="fListIem">Refund</li>
+                    <li class="fListIem">FAQ</li>
+                    <li class="fListIem">Feedback</li>
+                    <li class="fListIem">Stories</li>
+                </ul>
+            </div>
+            <div class="footermenu">
+                <h1 class="ftitle">Products</h1>
+                <ul class="fMenuList">
+                    <li class="fListIem">Support</li>
+                    <li class="fListIem">Refund</li>
+                    <li class="fListIem">FAQ</li>
+                    <li class="fListIem">Feedback</li>
+                    <li class="fListIem">Stories</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fmail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join</button>
+                </div>
+                
+            </div>  
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">   
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Technokeens. All rights reserved. 2023.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
