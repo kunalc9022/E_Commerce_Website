@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 
@@ -12,6 +11,7 @@ html,body{
     width: 100%;
     scroll-behavior: smooth;   
 }
+
 
 
 nav{
@@ -134,6 +134,34 @@ nav .navTop .navBottom1 i{
 .navBottom1 a:hover{
     color: rgb(168, 213, 166);
 }
+.submenuM{
+    display: none;
+}
+.submenu{
+    position: absolute;
+    width: 150px;
+    transition: all ease .5s;
+    top: 100%;
+    right: 11%;
+    text-align: center;
+    background-color: #9eaeae;
+    padding: 10px 25px;
+    opacity: 0; 
+    visibility: hidden;  
+}
+.submenu h4{
+    margin-bottom: 20px;
+    color: #111;
+}
+.submenu h4:hover{
+    color: #088178;
+}
+#sub:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+}
+
+
 .mobile{
     display: none;
 }
@@ -1024,6 +1052,70 @@ table tbody  td{
     background-color:#1f5e5a;
 }
 
+/* *********** SLIPER PAGE ********************  */
+.postertop-SSliper{
+    background-image: url(./img/slipers/postersliper2.gif);
+    width: 100%;
+    height: 62vh;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.postertop-SSliperB{
+    margin-top: 20px;
+    background-image: url(https://images.unsplash.com/photo-1631943406801-ba6ccfa4f682?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    width: 100%;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+/* *********** School PAGE ********************  */
+.postertop-SSchool{
+    background-image: url(./img/slipers/postersliper2.gif);
+    width: 100%;
+    height: 62vh;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+/* ***********SANDELS PAGE ********************  */
+.postertop-SSandel{
+    background-image: url(./img/slipers/postersliper2.gif);
+    width: 100%;
+    height: 62vh;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.postertop-SSandelB{
+    margin-top: 20px;
+    background-image: url(https://images.unsplash.com/photo-1631943406801-ba6ccfa4f682?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    width: 100%;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
 
 
 
@@ -1033,7 +1125,7 @@ table tbody  td{
 
 
 @media screen and  (max-width:480px) {
-  
+
 #logo{
     width: 40px;
     height: 40px;
@@ -1380,4 +1472,72 @@ padding: 8px;
 .table{
     overflow-x: auto;
 }
+
+
+/* SUBMENU RESPONSIVE */
+
+.submenu{
+    display: none;
+}
+.submenuM{
+    display: block;
+}
+.submenuM{
+    position: absolute;
+    width: 120px;
+    transition: all ease .5s;
+    top: 50%;
+    right: 5%;
+    text-align: left;
+    background-color: #e7e0e0;
+    padding: 10px 25px;
+    opacity: 0; 
+
+}
+.submenuM h4{
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/*sliper page responsive */
+
+.postertop-SSliper{
+    background-image: url(./img/slipers/postersliper2.gif);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+/*sandels page responsive */
+
+.postertop-SSandel{
+    background-image: url(./img/slipers/postersliper2.gif);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+/* for school responsive */
+.postertop-SSchool{
+    background-image: url(./img/slipers/postersliper2.gif);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
 }

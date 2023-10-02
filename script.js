@@ -137,3 +137,21 @@ Mmenu.addEventListener("click",function(){
 Mclosed.addEventListener("click",function(){
  MmenuSlider.style.right= "-150px";
 })
+
+
+// SUBCATEGORY MOBILE 
+
+var category = document.querySelector("#sub");
+var subm  = document.querySelector(".submenuM");
+var subMSwitch = 0
+
+category.addEventListener("click",function(){
+    if(subMSwitch == 0){
+    subm.style.opacity = 1;
+    subMSwitch = 1;
+}   
+else{
+    subm.style.opacity = 0;
+    subMSwitch = 0;
+}
+})
